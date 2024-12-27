@@ -1,0 +1,62 @@
+#instruction{
+    @apply
+    mt-[120px]
+    py-[120px]
+    bg-bgColor2
+}
+.instruction-row{
+    @apply
+    flex
+    justify-between
+    mt-[64px]
+}
+.instruction-single-card{
+    @apply
+    w-[370px]
+    h-[278px]
+    rounded-lg
+    bg-white
+    p-[40px]
+    relative
+    shadow-md
+}
+.curved-line{
+    @apply
+    w-full
+    h-full
+    absolute
+    left-0
+    top-0
+    z-[0]
+}
+.curved-line img{
+    @apply
+    !w-full
+    h-full
+}
+.instruction-single-card img{
+    @apply
+    w-[48px]
+    relative
+    z-[1]
+}
+.instruction-single-card h2{
+    @apply
+    font-Poppins
+    font-semibold
+    text-[24px]
+    text-primaryColor
+    mt-[48px]
+    mb-[16px]
+    relative
+    z-[1]
+}
+.instruction-single-card p{
+    @apply
+    font-Poppins
+    font-normal
+    text-[16px]
+    text-[#666666]
+    relative
+    z-[1]
+}

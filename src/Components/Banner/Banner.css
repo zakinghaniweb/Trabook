@@ -1,0 +1,108 @@
+.banner-row{
+    @apply
+    flex
+    justify-between
+    items-end
+}
+.banner-img{
+    @apply
+    w-[785px]
+}
+.banner-text{
+    @apply
+    w-[521px]
+}
+.banner-text h1{
+    @apply
+    font-Volkhov
+    font-bold
+    text-[64px]
+    text-primaryColor
+    pb-[32px]
+}
+.banner-text h1 span{
+    @apply
+    text-brandColor
+}
+.banner-text p{
+    @apply
+    font-Poppins
+    font-normal
+    text-[20px]
+    text-[#666666]
+    leading-[40px]
+    pb-[64px]
+}
+.banner-text a{
+    @apply
+    font-Poppins
+    font-medium
+    text-[18px]
+    text-brandColor
+    py-[14px]
+    px-[28px]
+    rounded-lg
+    border-[1px]
+    border-brandColor
+    hover:bg-brandColor
+    hover:text-white
+    transition-all
+}
+.banner-explore{
+    @apply
+    w-[841px]
+    h-[124px]
+    mx-auto
+    bg-white
+    shadow-2xl
+    shadow-gray-200
+    rounded-xl
+    mt-[60px]
+}
+.banner-explore-row{
+    @apply
+    py-[32px]
+    px-[24px]
+    flex
+    justify-between
+}
+.single-explore-card{
+    @apply
+    w-[126px]
+}
+.single-explore-card a{
+    @apply
+    font-Poppins
+    font-medium
+    text-[16px]
+    text-primaryColor
+    flex
+    gap-[5px]
+    items-center
+}
+.single-explore-card a svg{
+    @apply
+    text-[20px]
+    text-brandColor
+}
+.single-explore-card p{
+    @apply
+    font-Poppins
+    font-normal
+    text-[12px]
+    text-[#666666]
+    mt-[10px]
+}
+.banner-explore-row .explore-btn{
+    @apply
+    font-Poppins
+    font-medium
+    text-[18px]
+    text-white
+    py-[15px]
+    px-[30px]
+    bg-brandColor
+    hover:bg-orange-600
+    transition-all
+    rounded-lg
+}

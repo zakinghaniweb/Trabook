@@ -1,0 +1,34 @@
+.common-heading{
+    @apply
+    relative
+}
+.common-heading h2{
+    @apply
+    font-Volkhov
+    font-bold
+    text-[48px]
+    text-primaryColor
+    text-center
+    pb-[24px]
+}
+.common-heading h2 span{
+    @apply
+    text-brandColor
+}
+.common-heading img{
+    @apply
+    absolute
+    top-0
+    right-[230px]
+}
+.common-heading p{
+    @apply
+    font-Poppins
+    font-normal
+    text-[18px]
+    text-[#666666]
+    text-center
+    w-[482px]
+    mx-auto
+    leading-[32px]
+}

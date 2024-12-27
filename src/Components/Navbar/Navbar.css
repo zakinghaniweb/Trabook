@@ -1,0 +1,52 @@
+#navbar{
+    @apply
+    py-[32px]
+}
+.navbar-row{
+    @apply
+    flex
+    justify-between
+    items-center
+}
+.navbar-menu{
+    @apply
+    flex
+    gap-[32px]
+}
+.navbar-menu li a{
+    @apply
+    font-Poppins
+    font-normal
+    text-[16px]
+    text-primaryColor
+    hover:text-brandColor
+    transition-all
+}
+.navbar-buttons{
+    @apply
+    flex
+    gap-[56px]
+    items-center
+}
+.navbar-buttons .login{
+    @apply
+    font-Poppins
+    font-semibold
+    text-[16px]
+    text-brandColor
+    hover:text-orange-600
+    transition-all
+}
+.navbar-buttons .signup{
+    @apply
+    font-Poppins
+    font-semibold
+    text-[16px]
+    py-[13px]
+    px-[50px]
+    rounded-md
+    bg-brandColor
+    text-white
+    hover:bg-orange-600
+    transition-all
+}

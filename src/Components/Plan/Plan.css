@@ -1,0 +1,108 @@
+#plan{
+    @apply
+    mt-[120px]
+    pt-[120px]
+}
+.plan-wrap{
+    @apply
+    !flex
+    !justify-center
+    h-[500px]
+}
+.plan-card{
+    @apply
+    w-[370px]
+    h-[447px]
+    bg-[#FEFCFB]
+    border-[2px]
+    border-[#6666662a]
+    rounded-xl
+    overflow-hidden
+    transition-all
+    hover:shadow-2xl
+    hover:shadow-[#fa74363e]
+    hover:border-white
+}
+.plan-card-img{
+    @apply
+    w-[369px]
+    relative
+}
+.card-title{
+    @apply
+    pt-[24px]
+    pb-[12px]
+    px-[27px]
+    flex
+    justify-between
+    items-center
+}
+.card-title h2{
+    @apply
+    font-Poppins
+    font-medium
+    text-[24px]
+    text-primaryColor
+}
+.plan-card .card-title h2{
+    @apply
+    font-Poppins
+    font-medium
+    text-[24px]
+    text-primaryColor
+}
+.plan-card .card-title h3{
+    @apply
+    font-Poppins
+    font-semibold
+    text-[24px]
+    text-brandColor
+}
+.plan-card .card-body {
+    @apply
+    px-[24px]
+    flex
+    justify-between
+    items-center
+}
+.plan-card .card-body h3{
+    @apply
+    font-Poppins
+    font-medium
+    text-[16px]
+    text-[#666666]
+    flex
+    items-center
+    gap-[8px]
+}
+.plan-card .card-body .price{
+    @apply
+    flex
+    gap-[16px]
+    items-center
+}
+.plan-card .card-body .price .discount{
+    @apply
+    font-Poppins
+    font-normal
+    text-[16px]
+    text-[#666666]
+    line-through
+}
+.plan-card .card-body .rating svg{
+    @apply
+    font-Poppins
+    font-semibold
+    text-[16px]
+    text-yellow-400
+}
+.plan-card .card-body .rating{
+    @apply
+    font-Poppins
+    font-normal
+    text-[16px]
+    text-[#666666]
+    flex
+    items-center
+    gap-[8px]
+}

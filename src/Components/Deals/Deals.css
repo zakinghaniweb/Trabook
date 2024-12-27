@@ -1,0 +1,166 @@
+#deals{
+    @apply
+    mt-[120px]
+}
+.deals-row{
+    @apply
+    mt-[64px]
+    flex
+    justify-between
+}
+.deals-wrap{
+    @apply
+    h-[500px]
+    !flex
+    !justify-center
+}
+.deals-card{
+    @apply
+    w-[270px]
+    h-[426px]
+    bg-[#FEFCFB]
+    border-[2px]
+    border-[#6666661b]
+    rounded-lg
+    overflow-hidden
+    transition-all
+    hover:shadow-2xl
+    hover:shadow-[#fa74363e]
+    hover:border-white
+}
+.deals-card-img{
+    @apply
+    w-[270px]
+    relative
+}
+.deals-card:hover .deals-overlay{
+    @apply
+    top-0
+    opacity-100
+}
+.deals-overlay{
+    @apply
+    absolute
+    w-full
+    h-full
+    top-[-100%]
+    opacity-0
+    rounded-xl
+    left-0
+    bg-[#0000006c]
+    transition-all
+    duration-500
+}
+.deals-overlay a{
+    @apply
+    font-Poppins
+    font-medium
+    text-[18px]
+    text-white
+    py-[9px]
+    px-[21px]
+    bg-brandColor
+    rounded-lg
+    absolute
+    left-[50%]
+    translate-x-[-50%]
+    bottom-[48px]
+    transition-all
+    hover:bg-orange-600
+}
+.card-title{
+    @apply
+    pt-[32px]
+    pb-[16px]
+    px-[16px]
+    flex
+    justify-between
+    items-center
+}
+.card-title h2{
+    @apply
+    font-Poppins
+    font-medium
+    text-[24px]
+    text-primaryColor
+}
+.deals-card .card-title h2{
+    @apply
+    font-Poppins
+    font-medium
+    text-[24px]
+    text-primaryColor
+}
+.deals-card .card-title .rating svg{
+    @apply
+    font-Poppins
+    font-normal
+    text-[16px]
+    text-brandColor
+}
+.deals-card .card-title .rating{
+    @apply
+    font-Poppins
+    font-normal
+    text-[16px]
+    text-[#666666]
+    flex
+    items-center
+    gap-[8px]
+}
+.deals-card .card-body {
+    @apply
+    px-[16px]
+    flex
+    justify-between
+    items-center
+}
+.deals-card .card-body h3{
+    @apply
+    font-Poppins
+    font-normal
+    text-[16px]
+    text-[#666666]
+    flex
+    items-center
+    gap-[8px]
+}
+.deals-card .card-body .price{
+    @apply
+    flex
+    gap-[16px]
+    items-center
+}
+.deals-card .card-body .price .discount{
+    @apply
+    font-Poppins
+    font-normal
+    text-[16px]
+    text-[#666666]
+    line-through
+}
+.deals-card .card-body .price .presentPrice{
+    @apply
+    font-Poppins
+    font-semibold
+    text-[16px]
+    text-brandColor
+    bg-[#FFE7DB]
+    rounded-xl
+    py-[2px]
+    px-[5px]
+}
+.slide-arrows{
+    @apply
+    text-[#666666]
+    p-[12px]
+    border-[1px]
+    border-[#666666]
+    rounded-full
+    hover:text-white
+    hover:bg-brandColor
+    hover:border-brandColor
+    transition-all
+    transform
+    cursor-pointer
+}
