@@ -1,7 +1,9 @@
 #footer{
     @apply
     mt-[330px]
+    pt-[326px]
     bg-bgColor2
+    relative
 }
 .subscribe{
     @apply
@@ -10,9 +12,12 @@
     rounded-xl
     bg-brandColor
     mx-auto
-    relative
     py-[80px]
     mt-[-210px]
+    absolute
+    left-[50%]
+    translate-x-[-50%]
+    top-0
 }
 .subscribe .input-group{
     @apply
@@ -130,6 +135,7 @@
     @apply
     flex
     justify-between
+    mb-[32px]
 }
 .copyright p{
     @apply
