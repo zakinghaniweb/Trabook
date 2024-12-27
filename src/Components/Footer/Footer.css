@@ -1,0 +1,140 @@
+#footer{
+    @apply
+    mt-[330px]
+    bg-bgColor2
+}
+.subscribe{
+    @apply
+    w-[1170px]
+    h-[416px]
+    rounded-xl
+    bg-brandColor
+    mx-auto
+    relative
+    py-[80px]
+    mt-[-210px]
+}
+.subscribe .input-group{
+    @apply
+    w-[674px]
+    h-[68px]
+    bg-white
+    rounded-xl
+    mx-auto
+    flex
+    items-center
+    relative
+}
+.subscribe .input-group svg{
+    @apply
+    font-Poppins
+    font-bold
+    text-[#999999]
+    text-[24px]
+    mr-[4px]
+    ml-[22px]
+}
+.subscribe .input-group input{
+    @apply
+    w-full
+    font-Poppins
+    font-normal
+    text-[16px]
+}
+.subscribe .input-group a{
+    @apply
+    font-Poppins
+    font-normal
+    text-[16px]
+    py-[14px]
+    px-[26px]
+    bg-brandColor
+    rounded-xl
+    text-white
+    transition-all
+    hover:bg-orange-600
+    mr-[9px]
+}
+.footer-row{
+    @apply
+    mt-[120px]
+    flex
+    justify-between
+}
+.footer-sec-1{
+    @apply
+    w-[254px]
+}
+.footer-sec-1 p{
+    @apply
+    font-Poppins
+    font-medium
+    text-[16px]
+    text-[#666666]
+    mt-[24px]
+    mb-[16px]
+    leading-[32px]
+}
+.social-links{
+    @apply
+    flex
+    gap-[26px]
+}
+.social-links a{
+    @apply
+    p-[16px]
+    bg-white
+    text-[#444444]
+    shadow-md
+    rounded-full
+    hover:bg-brandColor
+    hover:text-white
+    transition-all
+}
+.footer-sec-2{
+    @apply
+    flex
+    gap-[130px]
+}
+.footer-card h2{
+    @apply
+    font-Poppins
+    font-semibold
+    text-primaryColor
+    text-[18px]
+    mb-[32px]
+}
+.footer-links{
+    @apply
+    flex
+    flex-col
+    gap-[16px]
+}
+.footer-links a{
+    @apply
+    font-Poppins
+    font-normal
+    text-[#666666]
+    text-[18px]
+    hover:text-brandColor
+    transition-all
+}
+.line{
+    @apply
+    w-full
+    h-[1px]
+    bg-[#9999997f]
+    my-[40px]
+}
+.copyright{
+    @apply
+    flex
+    justify-between
+}
+.copyright p{
+    @apply
+    font-Poppins
+    font-normal
+    text-[16px]
+    text-[#666666]
+}

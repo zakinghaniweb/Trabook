@@ -1,0 +1,59 @@
+#blog{
+    @apply
+    pt-[120px]
+}
+.blog-wrap{
+    @apply
+    h-[500px]
+    !flex
+    !justify-center
+}
+.blog-card{
+    @apply
+    w-[270px]
+    h-[388px]
+    rounded-lg
+    overflow-hidden
+}
+.blog-card-img{
+    @apply
+    w-[270px]
+    relative
+}
+
+.blog-card h2{
+    @apply
+    font-Poppins
+    font-medium
+    text-[18px]
+    text-primaryColor
+    pt-[24px]
+    pb-[16px]
+}
+.blog-card .card-body h3{
+    @apply
+    font-Poppins
+    font-normal
+    text-[16px]
+    text-[#999999]
+}
+.slick-dots{
+    @apply
+    !flex
+    !gap-[10px]
+    justify-center
+    items-center
+}
+.slick-dots li.slick-active .custom-dot{
+    @apply
+    w-[14px]
+    h-[14px]
+    !bg-brandColor
+}
+.custom-dot {
+    @apply
+    w-[10px]
+    h-[10px]
+    rounded-full
+    bg-[#E5E5E5]
+}
